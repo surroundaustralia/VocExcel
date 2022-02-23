@@ -12,7 +12,7 @@ from rdflib import Graph
 
 def peter_example():
     convert.excel_to_rdf(
-        Path(__file__).parent.parent / "baddata.xlsx",
+        Path(__file__).parent.parent / "complexexample.xlsx",
         output_type="file",
     )
 
